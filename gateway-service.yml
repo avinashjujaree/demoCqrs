@@ -1,9 +1,6 @@
 ribbon:
   eureka:
     enabled: false
-    eureka:
-  client:
-    register-with-eureka: false
 
 eureka:
   client:
@@ -21,13 +18,7 @@ zuul:
   debug:
     request: true
     response: true
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 60000
+
 
 logging:
     level:
