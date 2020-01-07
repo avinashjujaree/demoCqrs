@@ -14,8 +14,8 @@ spring:
         terminal: product.axon.terminal
     rabbitmq:
         hostname: localhost
-        username: test
-        password: password
+        username: guest
+        password: guest
     data:
         rest:
             #base-path: api/v1
