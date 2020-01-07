@@ -21,6 +21,13 @@ zuul:
   debug:
     request: true
     response: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
 
 logging:
     level:
